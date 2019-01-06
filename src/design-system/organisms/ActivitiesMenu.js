@@ -6,8 +6,11 @@ import Image from "../atoms/Image";
 import logo from "../../images/gdgkids-logo.svg";
 
 const Menu = styled.div`
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
   background-color: var(--white, hsl(0, 0%, 0%));
   padding: 2vw;
+  overflow-y: scroll;
 
   img {
     margin-bottom: 5vw;
@@ -16,7 +19,7 @@ const Menu = styled.div`
   }
 
   ul {
-    margin: 0;
+    margin: 0 0 5vw 0;
     padding: 0;
     list-style: none;
   }

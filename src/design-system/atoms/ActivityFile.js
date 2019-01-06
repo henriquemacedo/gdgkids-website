@@ -60,6 +60,7 @@ const ActivityInfo = styled.div`
 `;
 
 const File = styled.div`
+  margin-bottom: 2vw;
   border-radius: 20px;
   background-color: var(--white, hsl(0, 0%, 0%));
   padding: 2vw;
